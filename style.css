@@ -1,0 +1,61 @@
+body {
+    background-color: #0c0c14;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-card {
+    background: #161623;
+    padding: 2.5rem; 
+    border-radius: 20px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+   border: 1px solid #2e2e42;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.options-list {
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+button {
+    background: #8a2be2;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #7a1fc0;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba (138,42,226, 0.4);
+}
+
+.restart-btn {
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid #7d5fff;
+}
+
+.hidden {
+    display: none;
+}
